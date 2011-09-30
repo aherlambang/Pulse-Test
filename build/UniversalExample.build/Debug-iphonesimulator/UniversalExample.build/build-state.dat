@@ -1,0 +1,692 @@
+TUniversalExample
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/Info.plist UniversalExample-Info.plist
+cCompileXIB /Developer/Universal-iOS-App-Template/MainWindow.xib
+cCompileXIB /Developer/Universal-iOS-App-Template/RootViewController.xib
+cCompileXIB /Developer/Universal-iOS-App-Template/Classes/CustomCell.xib
+cCompileXIB /Developer/Universal-iOS-App-Template/MainWindow-iPad.xib
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o /Developer/Universal-iOS-App-Template/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o /Developer/Universal-iOS-App-Template/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o /Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o /Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o /Developer/Universal-iOS-App-Template/Classes/Model.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o /Developer/Universal-iOS-App-Template/Classes/CustomCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample normal i386
+cGenerateDSYMFile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+cTouch /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E2732520000000000000110
+t1311191634
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Universal-iOS-App-Template/Classes/CustomCell.h
+c000000004E859BCF00000000000000E3
+t1317379023
+s227
+i<UIKit/UIKit.h>
+
+N/Developer/Universal-iOS-App-Template/Classes/CustomCell.m
+c000000004E859BD20000000000000478
+t1317379026
+s1144
+i"CustomCell.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/CustomCell.xib
+c000000004E859EA70000000000002A65
+t1317379751
+s10853
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController.h
+c000000004E85995700000000000000B8
+t1317378391
+s184
+i<UIKit/UIKit.h>
+i"Model.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController.m
+c000000004E859F48000000000000039F
+t1317379912
+s927
+i"DetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.h
+c000000004E85965E000000000000013B
+t1317377630
+s315
+i<Foundation/Foundation.h>
+i"DetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m
+c000000004E859C0E0000000000000738
+t1317379086
+s1848
+i"DetailViewController_Pad.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.h
+c000000004E85967C000000000000008E
+t1317377660
+s142
+i<Foundation/Foundation.h>
+i"DetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m
+c000000004E859FEB0000000000000330
+t1317380075
+s816
+i"DetailViewController_Phone.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/Model.h
+c000000004E859AAD0000000000000098
+t1317378733
+s152
+i<Foundation/Foundation.h>
+
+N/Developer/Universal-iOS-App-Template/Classes/Model.m
+c000000004E859AA50000000000000253
+t1317378725
+s595
+i"Model.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController.h
+c000000004E85995E000000000000006D
+t1317378398
+s109
+i<UIKit/UIKit.h>
+i"Model.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController.m
+c000000004E859B8F000000000000052B
+t1317378959
+s1323
+i"RootViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.h
+c000000004E85996D00000000000000D7
+t1317378413
+s215
+i<Foundation/Foundation.h>
+i"UniversalExampleAppDelegate_Pad.h"
+i"RootViewController.h"
+i"DetailViewController_Pad.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m
+c000000004E859D51000000000000050A
+t1317379409
+s1290
+i"RootViewController_Pad.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.h
+c000000004E85967200000000000000AF
+t1317377650
+s175
+i<Foundation/Foundation.h>
+i"RootViewController.h"
+i"DetailViewController_Phone.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m
+c000000004E859CB70000000000000406
+t1317379255
+s1030
+i"RootViewController_Phone.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.h
+c000000004E85927C00000000000001B9
+t1317376636
+s441
+i<UIKit/UIKit.h>
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m
+c000000004E85927C00000000000007CF
+t1317376636
+s1999
+i"SubDetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.h
+c000000004E85927C0000000000000134
+t1317376636
+s308
+i<UIKit/UIKit.h>
+i"SubDetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m
+c000000004E85927C00000000000004C3
+t1317376636
+s1219
+i"SubDetailViewController_iPad.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.h
+c000000004E85927C0000000000000138
+t1317376636
+s312
+i<UIKit/UIKit.h>
+i"SubDetailViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m
+c000000004E85927C0000000000000314
+t1317376636
+s788
+i"SubDetailViewController_iPhone.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.h
+c000000004E8599620000000000000138
+t1317378402
+s312
+i<Foundation/Foundation.h>
+
+N/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m
+c000000004E8599660000000000000963
+t1317378406
+s2403
+i"UniversalExampleAppDelegate_Pad.h"
+i"RootViewController.h"
+
+N/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.h
+c000000004E859689000000000000013E
+t1317377673
+s318
+i<Foundation/Foundation.h>
+
+N/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m
+c000000004E85966C0000000000000969
+t1317377644
+s2409
+i"UniversalExampleAppDelegate_Phone.h"
+i"RootViewController.h"
+
+N/Developer/Universal-iOS-App-Template/MainWindow-iPad.xib
+c000000004E85927C00000000000075BB
+t1317376636
+s30139
+
+N/Developer/Universal-iOS-App-Template/MainWindow.xib
+c000000004E85927C0000000000006475
+t1317376636
+s25717
+
+N/Developer/Universal-iOS-App-Template/RootViewController.xib
+c000000004E85927C0000000000001CC8
+t1317376636
+s7368
+
+N/Developer/Universal-iOS-App-Template/UniversalExample_Prefix.pch
+c000000004E85927C0000000000000152
+t1317376636
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app
+t1317380051
+s306
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM
+t1317380051
+s102
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/CustomCell.nib
+t1317379850
+s2950
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
+t1317376748
+s1243
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib
+t1317376748
+s3730
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib
+t1317376749
+s2711
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo
+t1317376748
+s8
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib
+t1317376749
+s1518
+
+N/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+t1317380051
+s44168
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o
+t1317379205
+s36992
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
+t1317379958
+s40540
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
+t1317379204
+s49312
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
+t1317380051
+s38200
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o
+t1317379205
+s8804
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
+t1317379204
+s39352
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
+t1317379573
+s41756
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
+t1317379259
+s38036
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController.o
+t1317376752
+s51644
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPad.o
+t1317376752
+s38680
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPhone.o
+t1317376752
+s37936
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList
+c000000004E859C8300000000000006A6
+t1317379203
+s1702
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
+t1317379204
+s48212
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
+t1317379204
+s49632
+
+N/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
+t1317376751
+s4808
+
+N/Developer/Universal-iOS-App-Template/main.m
+c000000004E85927C0000000000000170
+t1317376636
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch
+t1317376751
+s12262832
+
+NUniversalExample-Info.plist
+c000000004E85927C000000000000080B
+t1317376636
+s2059
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/CustomCell.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/DetailViewController.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/Model.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/RootViewController.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m
+r0
+
+CBuild AST from /Developer/Universal-iOS-App-Template/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies98c3f26ed735b441^e5b4f36ed735b441^---0#1#0#--18"Check dependencies
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o /Developer/Universal-iOS-App-Template/Classes/CustomCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.936423
+e339072005.271296
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o
+x/Developer/Universal-iOS-App-Template/Classes/CustomCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell initWithNibName:bundle:]':
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: 'UITableViewCell' may not respond to '-initWithNibName:bundle:'
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: (Messages without a matching method signature
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: will be assumed to return 'id' and accept
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: '...' as arguments.)
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell didReceiveMemoryWarning]':
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:25: warning: 'UITableViewCell' may not respond to '-didReceiveMemoryWarning'
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell viewDidLoad]':
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:34: warning: 'UITableViewCell' may not respond to '-viewDidLoad'
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell viewDidUnload]':
+o/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:40: warning: 'UITableViewCell' may not respond to '-viewDidUnload'
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Developer/Universal-iOS-App-Template/Classes/CustomCell.m7ae4ef04d435b441^64247705d435b441^-1277"/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell initWithNibName:bundle:]':/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: 'UITableViewCell' may not respond to '-initWithNibName:bundle:'/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: (Messages without a matching method signature/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: will be assumed to return 'id' and accept/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:15: warning: '...' as arguments.)/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell didReceiveMemoryWarning]':/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:25: warning: 'UITableViewCell' may not respond to '-didReceiveMemoryWarning'/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell viewDidLoad]':/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:34: warning: 'UITableViewCell' may not respond to '-viewDidLoad'/Developer/Universal-iOS-App-Template/Classes/CustomCell.m: In function '-[CustomCell viewDidUnload]':/Developer/Universal-iOS-App-Template/Classes/CustomCell.m:40: warning: 'UITableViewCell' may not respond to '-viewDidUnload'5(21%IDEActivityLogMessage2@63"'UITableViewCell' may not respond to '-initWithNibName:bundle:'-339072005#113#136#-1#-23%DVTTextDocumentLocation3@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)-339072005#249#118#-0#-3@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@63"'UITableViewCell' may not respond to '-didReceiveMemoryWarning'-339072005#687#136#-1#-3@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^24#18446744073709551615#24#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@51"'UITableViewCell' may not respond to '-viewDidLoad'-339072005#924#124#-1#-3@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^33#18446744073709551615#33#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@53"'UITableViewCell' may not respond to '-viewDidUnload'-339072005#1151#126#-1#-3@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^39#18446744073709551615#39#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.m0000000000000000^2295"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o Classes/CustomCell.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/CustomCell.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/CustomCell.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072758.159228
+e339072758.253382
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
+x/Developer/Universal-iOS-App-Template/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Developer/Universal-iOS-App-Template/Classes/DetailViewController.m87e028f6d635b441^f6d042f6d635b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Universal-iOS-App-Template/Classes/DetailViewController.m0000000000000000^2335"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/DetailViewController.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.807496
+e339072004.960044
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
+x/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m37ddce04d435b441^a0c6f504d435b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m0000000000000000^2351"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o Classes/DetailViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Pad.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072878.994278
+e339072879.059849
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
+x/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.mb5a5fe6ed735b441^b746106fd735b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m0000000000000000^2359"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o Classes/DetailViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/DetailViewController_Phone.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o /Developer/Universal-iOS-App-Template/Classes/Model.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.927096
+e339072005.097252
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o
+x/Developer/Universal-iOS-App-Template/Classes/Model.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Developer/Universal-iOS-App-Template/Classes/Model.m677eed04d435b441^d5041905d435b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Universal-iOS-App-Template/Classes/Model.m0000000000000000^2275"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o Classes/Model.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/Model.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o /Developer/Universal-iOS-App-Template/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.639403
+e339072004.795016
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
+x/Developer/Universal-iOS-App-Template/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/Universal-iOS-App-Template/Classes/RootViewController.medd5a304d435b441^f889cb04d435b441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/Universal-iOS-App-Template/Classes/RootViewController.m0000000000000000^2327"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/RootViewController.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o /Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072373.229110
+e339072373.307866
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
+x/Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m7ac63a75d535b441^c7114f75d535b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m0000000000000000^2343"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o Classes/RootViewController_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/RootViewController_Pad.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o /Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072059.762005
+e339072059.828604
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
+x/Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m9031c33bd435b441^de1ed43bd435b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m0000000000000000^2351"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o Classes/RootViewController_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/RootViewController_Phone.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController.o /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339069552.231070
+e339069552.318953
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController.o
+x/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.mc0413b70ca35b441^7b6a6170ca35b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m0000000000000000^2347"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController.o Classes/SubDetailViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPad.o /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339069552.305609
+e339069552.386704
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPad.o
+x/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m75574e70ca35b441^93196b70ca35b441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m0000000000000000^2367"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPad.o Classes/SubDetailViewController_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPad.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPad.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPhone.o /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339069552.320267
+e339069552.398631
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPhone.o
+x/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m5c1b5270ca35b441^74246b70ca35b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m0000000000000000^2375"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPhone.o Classes/SubDetailViewController_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/SubDetailViewController_iPhone.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/SubDetailViewController_iPhone.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.640653
+e339072004.806172
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
+x/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.mfb23a404d435b441^f06dce04d435b441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m0000000000000000^2379"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o Classes/UniversalExampleAppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Pad.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339072004.640248
+e339072004.839739
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
+x/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.mcc07a404d435b441^5ef7d604d435b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m0000000000000000^2387"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o Classes/UniversalExampleAppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/Classes/UniversalExampleAppDelegate_Phone.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
+
+CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o /Developer/Universal-iOS-App-Template/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s339069551.786867
+e339069551.889806
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
+x/Developer/Universal-iOS-App-Template/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Developer/Universal-iOS-App-Template/main.m0da6c96fca35b441^b0c8e36fca35b441^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Universal-iOS-App-Template/main.m0000000000000000^2255"CompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch -c /Developer/Universal-iOS-App-Template/main.m -o /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
+
+CCompileXIB /Developer/Universal-iOS-App-Template/Classes/CustomCell.xib
+s339072650.107785
+e339072650.396062
+r1
+xCompileXIB
+x/Developer/Universal-iOS-App-Template/Classes/CustomCell.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Developer/Universal-iOS-App-Template/Classes/CustomCell.xibffae1b8ad635b441^1363658ad635b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Developer/Universal-iOS-App-Template/Classes/CustomCell.xib0000000000000000^627"CompileXIB Classes/CustomCell.xib    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/CustomCell.nib /Developer/Universal-iOS-App-Template/Classes/CustomCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Universal-iOS-App-Template/MainWindow-iPad.xib
+s339069548.754315
+e339069548.874770
+r1
+xCompileXIB
+x/Developer/Universal-iOS-App-Template/MainWindow-iPad.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compiling /Developer/Universal-iOS-App-Template/MainWindow-iPad.xib5934c16cca35b441^35f0df6cca35b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Developer/Universal-iOS-App-Template/MainWindow-iPad.xib0000000000000000^626"CompileXIB MainWindow-iPad.xib    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib /Developer/Universal-iOS-App-Template/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Universal-iOS-App-Template/MainWindow.xib
+s339069548.754309
+e339069549.829843
+r1
+xCompileXIB
+x/Developer/Universal-iOS-App-Template/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compiling /Developer/Universal-iOS-App-Template/MainWindow.xibca31c16cca35b441^677fd46dca35b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Developer/Universal-iOS-App-Template/MainWindow.xib0000000000000000^611"CompileXIB MainWindow.xib    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib /Developer/Universal-iOS-App-Template/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Universal-iOS-App-Template/RootViewController.xib
+s339069548.754302
+e339069549.762561
+r1
+xCompileXIB
+x/Developer/Universal-iOS-App-Template/RootViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Developer/Universal-iOS-App-Template/RootViewController.xibc22fc16cca35b441^9c36c36dca35b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Developer/Universal-iOS-App-Template/RootViewController.xib0000000000000000^635"CompileXIB RootViewController.xib    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib /Developer/Universal-iOS-App-Template/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CGenerateDSYMFile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+s339072879.112570
+e339072879.142684
+r1
+xGenerateDSYMFile
+x/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM
+x/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generating /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM82e11c6fd735b441^d385246fd735b441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM/0000000000000000^544"GenerateDSYMFile build/Debug-iphonesimulator/UniversalExample.app.dSYM build/Debug-iphonesimulator/UniversalExample.app/UniversalExample    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample -o /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app.dSYM
+
+CLd /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample normal i386
+s339072879.066444
+e339072879.105607
+r1
+xLd
+x/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample9417116fd735b441^89081b6fd735b441^---0#0#0#--1031"Ld build/Debug-iphonesimulator/UniversalExample.app/UniversalExample normal i386    cd /Developer/Universal-iOS-App-Template    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -filelist /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
+
+CProcessInfoPlistFile /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/Info.plist UniversalExample-Info.plist
+s339069548.712888
+e339069548.746679
+r1
+xProcessInfoPlistFile
+x/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
+xUniversalExample-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Process UniversalExample-Info.plist1d92b66cca35b441^9258c66cca35b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/Universal-iOS-App-Template/UniversalExample-Info.plist0000000000000000^612"ProcessInfoPlistFile build/Debug-iphonesimulator/UniversalExample.app/Info.plist UniversalExample-Info.plist    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UniversalExample-Info.plist -genpkginfo /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/UniversalExample-cpmdjmxmgrkrtpfdrliextewacde/Index/PrecompiledHeaders/UniversalExample_Prefix-dtjvvmxhdxbltrbmiglrofyjsdbe_ast/UniversalExample_Prefix.pch.pth UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s339069549.838919
+e339069551.779033
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch
+xUniversalExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile UniversalExample_Prefix.pch46edd66dca35b441^226dc76fca35b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/Universal-iOS-App-Template/UniversalExample_Prefix.pch0000000000000000^2240"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Universal-iOS-App-Template    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap -iquote /Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap -I/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/include -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386 -I/Developer/Universal-iOS-App-Template/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources -F/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator -c /Developer/Universal-iOS-App-Template/UniversalExample_Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-azyyyddzudttukfesfihojushywi/UniversalExample_Prefix.pch.gch
+
+CTouch /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app
+s339072879.150294
+e339072879.155570
+r1
+xTouch
+x/Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.appb989266fd735b441^52d2276fd735b441^---0#0#0#--340"Touch build/Debug-iphonesimulator/UniversalExample.app    cd /Developer/Universal-iOS-App-Template    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Universal-iOS-App-Template/build/Debug-iphonesimulator/UniversalExample.app
+
